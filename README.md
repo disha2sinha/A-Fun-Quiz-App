@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,4 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # A-Fun-Quiz-App
 A Quiz App  
->>>>>>> edd7d4fd30c5559375758a402c940546bb6b8cd1
