@@ -1,6 +1,7 @@
 import { useState , useCallback} from 'react';
 import QUESTIONS from '../questions.js';
 import Questions from './Questions.jsx';
+import Summary from './Summary.jsx';
 
 export default function Quiz(){
     /* This can be a way to store the active question id as well the answers given by users but 
@@ -28,9 +29,7 @@ export default function Quiz(){
 
     if (quizIsComplete){
         return(
-        <div className='w-full h-96 flex flex-col content-center items-center'>
-        <h1 className="uppercase font-extrabold text-stone-400 content-center">Quiz Completed</h1>
-        </div>
+        <Summary userAnswers={userAnswers}/>
         )
     }
     //Answers will be shuffled only if current of shuffledanswers is undefined
